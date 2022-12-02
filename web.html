@@ -10,23 +10,22 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "web.css"], "outOfDate":[]};
 </script>
   
-  <title>Page d'accueil</title>
+  <title>Web</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-gabarit.css?crc=4161900283"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3866355098" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/web.css?crc=3823703471" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
    <div class="clearfix grpelem" id="pu1665"><!-- group -->
-    <div class="museBGSize" id="u1665"><!-- content --></div>
-    <div class="museBGSize" id="u1020"><!-- content --></div>
+    <div id="u1665"><!-- content --></div>
     <div class="browser_width" id="u1006-bw">
-     <div class="shadow museBGSize" id="u1006"><!-- simple frame --></div>
+     <div id="u1006"><!-- simple frame --></div>
     </div>
     <div class="clearfix" id="u667-7"><!-- content -->
      <p>&nbsp;</p>
@@ -34,50 +33,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <p>All rights reserved 2022</p>
     </div>
     <div class="browser_width" id="u656-bw">
-     <a class="nonblock nontext MuseLinkActive shadow museBGSize" id="u656" href="index.html"><!-- simple frame --></a>
+     <a class="nonblock nontext" id="u656" href="index.html"><!-- simple frame --></a>
     </div>
    </div>
-   <div class="clearfix grpelem" id="ppu916"><!-- column -->
-    <a class="nonblock nontext MuseLinkActive transition pinned-colelem" id="u916" href="index.html"><!-- state-based BG images --></a>
-    <div class="clearfix colelem" id="pu986"><!-- group -->
-     <div class="museBGSize grpelem" id="u986"><!-- content --></div>
-     <img class="grpelem" id="u1163" alt="" width="394" height="510" src="images/stick%20note-u1163.png?crc=4048606437"/><!-- rasterized frame -->
-     <div class="PamphletWidget clearfix grpelem" id="pamphletu535"><!-- none box -->
-      <div class="popup_anchor" id="u536popup">
-       <div class="ContainerGroup clearfix" id="u536"><!-- stack box -->
-        <div class="Container invi clearfix grpelem" id="u537"><!-- group -->
-         <img class="grpelem" id="u580-6" alt="Graphic Design" width="224" height="172" src="images/u580-6.png?crc=4146618003"/><!-- rasterized frame -->
-        </div>
-        <div class="Container invi clearfix grpelem" id="u538"><!-- group -->
-         <img class="grpelem" id="u583-6" alt="Motion Design" width="224" height="172" src="images/u583-6.png?crc=3997118269"/><!-- rasterized frame -->
-        </div>
-        <div class="Container invi clearfix grpelem" id="u539"><!-- group -->
-         <img class="grpelem" id="u586-6" alt="Web Design" width="224" height="172" src="images/u586-6.png?crc=4046325447"/><!-- rasterized frame -->
-        </div>
-       </div>
-      </div>
-      <div class="ThumbGroup clearfix grpelem" id="u546"><!-- none box -->
-       <div class="popup_anchor" id="u547popup">
-        <a class="nonblock nontext Thumb popup_element transition rounded-corners" id="u547" href="graphic.html"><!-- simple frame --></a>
-       </div>
-       <div class="popup_anchor" id="u549popup">
-        <a class="nonblock nontext Thumb popup_element transition rounded-corners" id="u549" href="motion.html"><!-- simple frame --></a>
-       </div>
-       <div class="popup_anchor" id="u548popup">
-        <a class="nonblock nontext Thumb popup_element transition rounded-corners" id="u548" href="web.html"><!-- simple frame --></a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-   <div class="verticalspacer" data-offset-top="622" data-content-above-spacer="666" data-content-below-spacer="92"></div>
+   <a class="nonblock nontext transition" id="u916" href="index.html"><!-- state-based BG images --></a>
+   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="660" data-content-below-spacer="500"></div>
   </div>
   <div class="preload_images">
    <img class="preload" src="images/tunetek%20logo-u916-r.png?crc=3792486281" alt=""/>
    <img class="preload" src="images/tunetek%20logo-u916-a.png?crc=3792486281" alt=""/>
-   <img class="preload" src="images/book_btn_01_hover.png?crc=432509978" alt=""/>
-   <img class="preload" src="images/book_btn_02_hover.png?crc=4015146564" alt=""/>
-   <img class="preload" src="images/book_btn_03_hover.png?crc=4184790956" alt=""/>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -90,12 +54,11 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Certains fichiers sur le serveur sont peut-être manquants ou incorrects. Videz le cache du navigateur et réessayez. Si le problème persiste, contactez le créateur du site.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('#pamphletu535', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:300,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu535 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
