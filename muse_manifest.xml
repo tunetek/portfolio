@@ -1,49 +1,84 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="portfolio.wbenz.com" resolutions="1x" timestamp="1670058411338">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="portfolio.wbenz.com" resolutions="1x" timestamp="1670180638148">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-gabarit.css" crc="9494431" ref="motion:index:graphic:web"/>
-    <file name="motion.css" crc="4125858942" ref="motion"/>
-    <file name="index.css" crc="3855373657" ref="index"/>
-    <file name="graphic.css" crc="3767323501" ref="graphic"/>
-    <file name="web.css" crc="4125858942" ref="web"/>
+    <file name="master_a-gabarit.css" crc="4041578503" ref="mimo:index:web:poste:motion:freesh:animea:graphic:macbeth:astrolabe"/>
+    <file name="mimo.css" crc="524852157" ref="mimo"/>
+    <file name="index.css" crc="3888873797" ref="index"/>
+    <file name="web.css" crc="4030358837" ref="web"/>
+    <file name="poste.css" crc="4251626119" ref="poste"/>
+    <file name="motion.css" crc="4030358837" ref="motion"/>
+    <file name="freesh.css" crc="171179917" ref="freesh"/>
+    <file name="animea.css" crc="4280129682" ref="animea"/>
+    <file name="graphic.css" crc="210242906" ref="graphic"/>
+    <file name="macbeth.css" crc="454054826" ref="macbeth"/>
+    <file name="astrolabe.css" crc="417153750" ref="astrolabe"/>
+  </folder>
+  <folder name="assets">
+    <file name="macbeth-affiche-2.jpg" crc="4068249961" seo="true" mt="1670099336000"/>
+    <file name="macbeth-affiche.jpg" crc="4151648370" seo="true" mt="1670099399000"/>
+    <file name="macbeth-billet.jpg" crc="3910824623" seo="true" mt="1670099473000"/>
+    <file name="macbeth-invitation.jpg" crc="359926868" seo="true" mt="1670099508000"/>
+    <file name="macbeth-bg.jpg" crc="406871107" seo="true" mt="1670099431000"/>
+    <file name="freesh-prod.-papiterie.jpg" crc="105014706" seo="true" mt="1670155662000"/>
+    <file name="freesh-prod-carte-visite-2.jpg" crc="4023448675" seo="true" mt="1670155570000"/>
+    <file name="freesh-prod-hat-2.jpg" crc="533802284" seo="true" mt="1670155556000"/>
+    <file name="freesh-prod-hat-3.jpg" crc="304629878" seo="true" mt="1670155543000"/>
+    <file name="freesh-brochure-1.jpg" crc="23558648" seo="true" mt="1670155635000"/>
+    <file name="freesh-brochure-2.jpg" crc="26051522" seo="true" mt="1670155617000"/>
+    <file name="freesh-brochure-3.jpg" crc="524322360" seo="true" mt="1670155603000"/>
+    <file name="freesh-brochure-4.jpg" crc="353725896" seo="true" mt="1670155589000"/>
+    <file name="freesh-bg.jpg" crc="4275260258" seo="true" mt="1670154726000"/>
+    <file name="poste_dupliant.jpg" crc="203409841" seo="true" mt="1670171845000"/>
+    <file name="poste_dupliant02.jpg" crc="4265417472" seo="true" mt="1670171861000"/>
+    <file name="poste_dupliant03.jpg" crc="3873403868" seo="true" mt="1670172657000"/>
+    <file name="poste_dupliant04.jpg" crc="4067229108" seo="true" mt="1670173997000"/>
+    <file name="sicav-dupliant-triface.jpg" crc="293179311" seo="true" mt="1670174685000"/>
+    <file name="mimo_dvd.jpg" crc="61764516" seo="true" mt="1670175269000"/>
+    <file name="mimo_catalogue.jpg" crc="56771627" seo="true" mt="1670175775000"/>
+    <file name="mimo_catalogue03.jpg" crc="35522196" seo="true" mt="1670178532000"/>
+    <file name="mimo_catalogue02.jpg" crc="3768201516" seo="true" mt="1670176293000"/>
+    <file name="animea-logo.jpg" crc="3935199885" seo="true" mt="1670179062000"/>
+    <file name="animea-magazine-couv.jpg" crc="3810864819" seo="true" mt="1670179079000"/>
+    <file name="animea-magazine-inside.jpg" crc="4263567719" seo="true" mt="1670179088000"/>
+    <file name="animea-magazine.jpg" crc="456175336" seo="true" mt="1670179105000"/>
+    <file name="astrolabe-logo.jpg" crc="239263732" seo="true" mt="1670150548000"/>
+    <file name="astrolabe-logo-tampon.jpg" crc="4081262358" seo="true" mt="1670150474000"/>
+    <file name="podcast-script-microphone-1024x683.jpg" crc="4274973583" seo="true" mt="1670151210000"/>
+    <file name="astrolabe-logo-incrustation-cup.jpg" crc="3770610052" seo="true" mt="1670150512000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:graphic:motion:web"/>
-    <file name="museutils.js" crc="3939489907" ref="index:graphic:motion:web"/>
-    <file name="whatinput.js" crc="86476730" ref="index:graphic:motion:web"/>
-    <file name="museconfig.js" crc="128606099" ref="index:graphic:motion:web"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="museutils.js" crc="3939489907" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="whatinput.js" crc="86476730" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="museconfig.js" crc="128606099" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:graphic"/>
-    <file name="webpro.js" crc="3856315280" ref="index:graphic"/>
-    <file name="musewpslideshow.js" crc="244150766" ref="index:graphic"/>
-    <file name="jquery.museoverlay.js" crc="3877667098" ref="index:graphic"/>
-    <file name="touchswipe.js" crc="3888935200" ref="index:graphic"/>
-    <file name="jquery.watch.js" crc="522499760" ref="index:graphic:motion:web"/>
-    <file name="require.js" crc="4177726516" ref="index:graphic:motion:web"/>
+    <file name="webpro.js" crc="3856315280" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="touchswipe.js" crc="3888935200" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="require.js" crc="4177726516" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
   </folder>
   <folder name="images">
-    <file name="wall wood bg.jpg" crc="4149866830" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
+    <file name="favicon.ico" crc="150607452" ref="index"/>
     <file name="wood bar.jpg" crc="139505771" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="tunetek logo-u916.png" crc="371846458" ref="index:graphic:motion:web"/>
-    <file name="tunetek logo-u916-r.png" crc="3792486281" ref="index:graphic:motion:web"/>
-    <file name="tunetek logo-u916-a.png" crc="3792486281" ref="index:graphic:motion:web"/>
+    <file name="tunetek logo-u916.png" crc="371846458" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="tunetek logo-u916-r.png" crc="3792486281" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="tunetek logo-u916-a.png" crc="3792486281" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
     <file name="book_shelf_shadow-u986-fr.png" crc="4114835387" ref="index"/>
     <file name="stick note-u1163.png" crc="4048606437" ref="index"/>
     <file name="u580-6.png" crc="4146618003" ref="index"/>
     <file name="u583-6.png" crc="3997118269" ref="index"/>
     <file name="u586-6.png" crc="4046325447" ref="index"/>
-    <file name="book_btn_01.png" crc="244479709" ref="index:graphic">
+    <file name="book_btn_01.png" crc="244479709" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="graphic" alt=""/>
     </file>
-    <file name="book_btn_01_hover.png" crc="432509978" ref="index:graphic">
+    <file name="book_btn_01_hover.png" crc="432509978" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="graphic" alt=""/>
     </file>
     <file name="book_btn_02.png" crc="100339433" ref="index">
       <caption webpage="index" alt=""/>
@@ -52,62 +87,372 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="book_btn_03.png" crc="275140722" ref="index:graphic">
+    <file name="book_btn_03.png" crc="275140722" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
     </file>
-    <file name="book_btn_03_hover.png" crc="4184790956" ref="index:graphic">
+    <file name="book_btn_03_hover.png" crc="4184790956" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
     </file>
     <file name="graphic book shelf.png" crc="414644258" ref="graphic">
       <caption webpage="graphic" alt=""/>
     </file>
-    <file name="pnud logo.png" crc="368927501" ref="graphic">
+    <file name="pnud couv.jpg" crc="463116559" ref="graphic">
       <caption webpage="graphic" alt=""/>
     </file>
-    <file name="pnud couv.jpg" crc="3829737300" ref="graphic">
+    <file name="freesh_pochet.jpg" crc="4125329562" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
       <caption webpage="graphic" alt=""/>
     </file>
-    <file name="u1275-6.png" crc="4046325447" ref="graphic"/>
-    <file name="tunetek logo.png" crc="3883683403" ref="graphic">
+    <file name="macbeth_pochet.jpg" crc="4047370589" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
       <caption webpage="graphic" alt=""/>
     </file>
-    <file name="pnud couv-u1283-fr.jpg" crc="4111159027" ref="graphic"/>
-    <file name="pnud couv_btn_hover.jpg" crc="142155558" ref="graphic">
+    <file name="sicav_pochet.jpg" crc="369176006" ref="graphic">
       <caption webpage="graphic" alt=""/>
       <caption webpage="graphic" alt=""/>
       <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="mimo_pochet.jpg" crc="380641880" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="astrolabe_pochet.jpg" crc="3784724847" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="animea_pochet.jpg" crc="3879213200" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="japan_expo_pochet.jpg" crc="3972895975" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tvmix_pochet.jpg" crc="4020283338" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="président_pochet.jpg" crc="190616243" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="benzi_pochet.jpg" crc="3941281915" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="lab_pochet.jpg" crc="510235232" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="click_pochet.jpg" crc="3977681437" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="golden_pochet.jpg" crc="4275648317" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tapitum_pochet.jpg" crc="3812469326" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="webofly_pochet.jpg" crc="212433707" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="resicover_pochet.jpg" crc="126112641" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="brains_pochet.jpg" crc="3963023850" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="med_pub_pochet.jpg" crc="483586077" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="resto_magh_pochet.jpg" crc="180918370" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tunetek_pochet.jpg" crc="299743855" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="acuapor_pochet.jpg" crc="3998492388" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="pnud_btn.jpg" crc="3787093699" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="pnud_btn_hover.jpg" crc="3804764955" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="freesh_btn.jpg" crc="125136702" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="freesh_btn_hover.jpg" crc="356349011" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="macbeth_btn.jpg" crc="3769042300" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="macbeth_btn_hover.jpg" crc="4130279325" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="sicav_btn.jpg" crc="4031604609" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="sicav_btn_hover.jpg" crc="106479255" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="mimo_btn.jpg" crc="4224465224" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="mimo_btn_hover.jpg" crc="351547103" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="astrolabe_btn.jpg" crc="151636301" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="astrolabe_btn_hover.jpg" crc="4014327190" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="animea_btn.jpg" crc="4079251794" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="animea_btn_hover.jpg" crc="3944308895" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="japan_expo_btn.jpg" crc="186064912" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="japan_expo_btn_hover.jpg" crc="227953291" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tvmix_btn.jpg" crc="3902571563" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tvmix_btn_hover.jpg" crc="78583968" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="président_btn.jpg" crc="421842573" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="président_btn_hover.jpg" crc="375803609" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="benzi_btn.jpg" crc="15517196" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="benzi_btn_hover.jpg" crc="3841542515" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="lab_btn.jpg" crc="177780433" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="lab_btn_hover.jpg" crc="79069536" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="click_btn.jpg" crc="167757662" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="click_btn_hover.jpg" crc="212831080" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="golden_btn.jpg" crc="3840091555" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="golden_btn_hover.jpg" crc="21969066" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tapitum_btn.jpg" crc="227306108" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tapitum_btn_hover.jpg" crc="3830005356" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="webofly_btn.jpg" crc="3821208670" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="webofly_btn_hover.jpg" crc="3815034206" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="resicover_btn.jpg" crc="4189176101" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="resicover_btn_hover.jpg" crc="25918876" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="brains_btn.jpg" crc="498029243" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="brains_btn_hover.jpg" crc="510546291" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="med_pub_btn.jpg" crc="3967435717" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="med_pub_btn_hover.jpg" crc="73024006" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="resto_magh_btn.jpg" crc="18560592" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="resto_magh_btn_hover.jpg" crc="3949365163" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tunetek_btn.jpg" crc="3994533481" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="tunetek_btn_hover.jpg" crc="357506634" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="acuapor_btn.jpg" crc="371611356" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="acuapor_btn_hover.jpg" crc="414442420" ref="graphic">
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="graphic" alt=""/>
+    </file>
+    <file name="macbeth affiche 2.jpg" crc="3855145529" seo="true" ref="macbeth">
+      <caption webpage="macbeth" alt=""/>
+    </file>
+    <file name="macbeth affiche.jpg" crc="4281052849" seo="true" ref="macbeth">
+      <caption webpage="macbeth" alt=""/>
+    </file>
+    <file name="macbeth invitation.jpg" crc="3868789421" seo="true" ref="macbeth">
+      <caption webpage="macbeth" alt=""/>
+    </file>
+    <file name="macbeth billet.jpg" crc="226534189" seo="true" ref="macbeth">
+      <caption webpage="macbeth" alt=""/>
+    </file>
+    <file name="astrolabe logo.jpg" crc="92488764" seo="true" ref="astrolabe">
+      <caption webpage="astrolabe" alt=""/>
+    </file>
+    <file name="astrolabe logo tampon.jpg" crc="3834680794" seo="true" ref="astrolabe">
+      <caption webpage="astrolabe" alt=""/>
+    </file>
+    <file name="astrolabe logo incrustation cup.jpg" crc="3871155255" seo="true" ref="astrolabe">
+      <caption webpage="astrolabe" alt=""/>
+    </file>
+    <file name="podcast-script-microphone-1024x683.jpg" crc="354447281" seo="true" ref="astrolabe">
+      <caption webpage="astrolabe" alt=""/>
+    </file>
+    <file name="freesh prod papiterie.jpg" crc="3948434955" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="freesh prod carte visite 2.jpg" crc="280231243" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="freesh prod hat 2.jpg" crc="469121826" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="freesh prod hat 3.jpg" crc="3892534271" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="freesh brochure 1.jpg" crc="3967513468" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="freesh brochure 2.jpg" crc="147027425" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="freesh brochure 3.jpg" crc="369873097" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="freesh brochure 4.jpg" crc="165462713" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="freesh bg.jpg" crc="4006978952" seo="true" ref="freesh">
+      <caption webpage="freesh" alt=""/>
+    </file>
+    <file name="poste_dupliant.jpg" crc="55813930" seo="true" ref="poste">
+      <caption webpage="poste" alt=""/>
+    </file>
+    <file name="poste_dupliant02.jpg" crc="4265536520" seo="true" ref="poste">
+      <caption webpage="poste" alt=""/>
+    </file>
+    <file name="poste_dupliant03.jpg" crc="35464733" seo="true" ref="poste">
+      <caption webpage="poste" alt=""/>
+    </file>
+    <file name="poste_dupliant04.jpg" crc="422079924" seo="true" ref="poste">
+      <caption webpage="poste" alt=""/>
+    </file>
+    <file name="sicav dupliant triface.jpg" crc="4059645455" seo="true" ref="poste">
+      <caption webpage="poste" alt=""/>
+    </file>
+    <file name="mimo_dvd.jpg" crc="4198391683" seo="true" ref="mimo">
+      <caption webpage="mimo" alt=""/>
+    </file>
+    <file name="mimo_catalogue.jpg" crc="103934588" seo="true" ref="mimo">
+      <caption webpage="mimo" alt=""/>
+    </file>
+    <file name="mimo_catalogue02.jpg" crc="3786265999" seo="true" ref="mimo">
+      <caption webpage="mimo" alt=""/>
+    </file>
+    <file name="mimo_catalogue03.jpg" crc="3794371846" seo="true" ref="mimo">
+      <caption webpage="mimo" alt=""/>
+    </file>
+    <file name="animea logo.jpg" crc="482806129" seo="true" ref="animea">
+      <caption webpage="animea" alt=""/>
+    </file>
+    <file name="animea magazine couv.jpg" crc="67759041" seo="true" ref="animea">
+      <caption webpage="animea" alt=""/>
+    </file>
+    <file name="animea magazine inside.jpg" crc="3807938267" seo="true" ref="animea">
+      <caption webpage="animea" alt=""/>
+    </file>
+    <file name="animea magazine.jpg" crc="378815248" seo="true" ref="animea">
+      <caption webpage="animea" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="415432017" seo="true" mt="1670057391978" redirect="true"/>
-  <file name="graphic.html" crc="254525386" seo="true" mt="1670057591553" redirect="true"/>
-  <file name="motion.html" crc="493286521" seo="true" mt="1670057391978" redirect="true"/>
-  <file name="web.html" crc="4027148824" seo="true" mt="1670057391978" redirect="true"/>
+  <file name="index.html" crc="205808103" seo="true" mt="1670180612533" redirect="true"/>
+  <file name="graphic.html" crc="3836826091" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="motion.html" crc="4282765747" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="web.html" crc="4261402679" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="macbeth.html" crc="4167972318" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="astrolabe.html" crc="4181723305" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="freesh.html" crc="3832232187" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="poste.html" crc="179017978" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="mimo.html" crc="4096607719" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="animea.html" crc="3923219618" seo="true" mt="1670180564194" redirect="true"/>
 </manifest>
