@@ -10,152 +10,33 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "freesh.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "freesh.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=150607452"/>
   <title>Freesh</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-gabarit.css?crc=4041578503"/>
-  <link rel="stylesheet" type="text/css" href="css/freesh.css?crc=171179917" id="pagesheet"/>
-    <!--HTML Widget code-->
-  
-<style>
-.u4764 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u4764 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u4764 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4764 a:hover div:before { opacity: 0.7; }
-.u4764 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u4764 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u4764 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u4764 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u4764 a:hover span h3 { }
-.u4764 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4764 a:hover span p { opacity: 1; max-height: 200px; }
+  <link rel="stylesheet" type="text/css" href="css/master_a-gabarit.css?crc=521862009"/>
+  <link rel="stylesheet" type="text/css" href="css/freesh.css?crc=219854752" id="pagesheet"/>
+    <!--custom head HTML-->
+  <style>
+.thumb, .thumb-ico {
+transition:all 0.4s ease 0s;
+}
 </style>
 
-<style>
-.u4881 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u4881 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u4881 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4881 a:hover div:before { opacity: 0.7; }
-.u4881 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u4881 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u4881 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u4881 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u4881 a:hover span h3 { }
-.u4881 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4881 a:hover span p { opacity: 1; max-height: 200px; }
+<style type="text/css">
+html,body{
+overflow-y:hidden;
+overflow-x:hidden;
+}
 </style>
-
 <style>
-.u4922 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u4922 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u4922 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4922 a:hover div:before { opacity: 0.7; }
-.u4922 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u4922 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u4922 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u4922 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u4922 a:hover span h3 { }
-.u4922 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4922 a:hover span p { opacity: 1; max-height: 200px; }
+.thumb, .thumb-ico {
+transition:all 0.4s ease 0s;
+}
 </style>
-
-<style>
-.u4953 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u4953 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u4953 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4953 a:hover div:before { opacity: 0.7; }
-.u4953 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u4953 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u4953 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u4953 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u4953 a:hover span h3 { }
-.u4953 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4953 a:hover span p { opacity: 1; max-height: 200px; }
-</style>
-
-<style>
-.u4969 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u4969 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u4969 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4969 a:hover div:before { opacity: 0.7; }
-.u4969 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u4969 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u4969 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u4969 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u4969 a:hover span h3 { }
-.u4969 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u4969 a:hover span p { opacity: 1; max-height: 200px; }
-</style>
-
-<style>
-.u5010 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u5010 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u5010 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5010 a:hover div:before { opacity: 0.7; }
-.u5010 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u5010 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u5010 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u5010 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u5010 a:hover span h3 { }
-.u5010 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5010 a:hover span p { opacity: 1; max-height: 200px; }
-</style>
-
-<style>
-.u5041 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u5041 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u5041 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5041 a:hover div:before { opacity: 0.7; }
-.u5041 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u5041 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u5041 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u5041 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u5041 a:hover span h3 { }
-.u5041 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5041 a:hover span p { opacity: 1; max-height: 200px; }
-</style>
-
-<style>
-.u5072 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u5072 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u5072 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5072 a:hover div:before { opacity: 0.7; }
-.u5072 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u5072 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u5072 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u5072 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u5072 a:hover span h3 { }
-.u5072 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5072 a:hover span p { opacity: 1; max-height: 200px; }
-</style>
-
-<style>
-.u5103 a { position: relative; float: left; width: 292px; height: 183px; overflow: visible; display: block; background-color: transparent; text-decoration: none; }
-.u5103 a div { position: relative; z-index: 1; width: 292px; height: 183px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u5103 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5103 a:hover div:before { opacity: 0.7; }
-.u5103 a:hover div { width: 292px; height: 183px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u5103 a:active div { width: 292px; height: 183px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u5103 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u5103 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u5103 a:hover span h3 { }
-.u5103 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5103 a:hover span p { opacity: 1; max-height: 200px; }
-</style>
-
  </head>
  <body>
 
@@ -175,181 +56,181 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    </div>
    <div class="clearfix grpelem" id="ppu916"><!-- column -->
     <a class="nonblock nontext transition pinned-colelem" id="u916" href="index.html"><!-- state-based BG images --></a>
-    <div class="PamphletWidget clearfix widget_invisible colelem" id="pamphletu4453" data-islightbox="true"><!-- none box -->
-     <div class="ThumbGroup clearfix grpelem" id="u4471"><!-- none box -->
-      <div class="popup_anchor" id="u4771popup">
-       <div class="Thumb popup_element clearfix" id="u4771"><!-- group -->
-        <div class="size_fixed grpelem" id="u4764"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u4764">
-<a href="" title=""><div style="background-image: url(assets/freesh-prod.-papiterie.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
+    <div class="PamphletWidget clearfix colelem" id="pamphletu7825"><!-- none box -->
+     <div class="ThumbGroup clearfix grpelem" id="u7826"><!-- none box -->
+      <div class="popup_anchor" id="u7836popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u7836"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u7837"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8178-6"><!-- content -->
+          <p>CARTE VISITE</p>
+          <p>FREESH PROD.</p>
+         </div>
         </div>
        </div>
       </div>
-      <div class="popup_anchor" id="u4867popup">
-       <div class="Thumb popup_element clearfix" id="u4867"><!-- group -->
-        <div class="size_fixed grpelem" id="u4881"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u4881">
-<a href="" title=""><div style="background-image: url(assets/freesh-prod-carte-visite-2.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
+      <div class="popup_anchor" id="u7827popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u7827"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u7828"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u7829-6"><!-- content -->
+          <p>PAPITERIE</p>
+          <p>FREESH PROD.</p>
+         </div>
         </div>
        </div>
       </div>
-      <div class="popup_anchor" id="u4908popup">
-       <div class="Thumb popup_element clearfix" id="u4908"><!-- group -->
-        <div class="size_fixed grpelem" id="u4922"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u4922">
-<a href="" title=""><div style="background-image: url(assets/freesh-prod-hat-2.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
+      <div class="popup_anchor" id="u7833popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u7833"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u7834"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u7835-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>FREESH PROD.</p>
+         </div>
         </div>
        </div>
       </div>
-      <div class="popup_anchor" id="u4939popup">
-       <div class="Thumb popup_element clearfix" id="u4939"><!-- group -->
-        <div class="size_fixed grpelem" id="u4953"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u4953">
-<a href="" title=""><div style="background-image: url(assets/freesh-prod-hat-3.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
+      <div class="popup_anchor" id="u7830popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u7830"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u7831"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u7832-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>FREESH PROD.</p>
+         </div>
         </div>
        </div>
       </div>
-      <div class="popup_anchor" id="u4960popup">
-       <div class="Thumb popup_element clearfix" id="u4960"><!-- group -->
-        <div class="size_fixed grpelem" id="u4969"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u4969">
-<a href="" title=""><div style="background-image: url(assets/freesh-brochure-1.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
+      <div class="popup_anchor" id="u8033popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8033"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8181"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8184-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>FREESH PROD.</p>
+         </div>
         </div>
        </div>
       </div>
-      <div class="popup_anchor" id="u4996popup">
-       <div class="Thumb popup_element clearfix" id="u4996"><!-- group -->
-        <div class="size_fixed grpelem" id="u5010"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u5010">
-<a href="" title=""><div style="background-image: url(assets/freesh-brochure-2.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
+      <div class="popup_anchor" id="u8071popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8071"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8166"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8187-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>FREESH PROD.</p>
+         </div>
         </div>
        </div>
       </div>
-      <div class="popup_anchor" id="u5027popup">
-       <div class="Thumb popup_element clearfix" id="u5027"><!-- group -->
-        <div class="size_fixed grpelem" id="u5041"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u5041">
-<a href="" title=""><div style="background-image: url(assets/freesh-brochure-3.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
+      <div class="popup_anchor" id="u8097popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8097"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8172"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8190-6"><!-- content -->
+          <p>HABILLAGE</p>
+          <p>CASQUETTE</p>
+         </div>
         </div>
        </div>
       </div>
-      <div class="popup_anchor" id="u5058popup">
-       <div class="Thumb popup_element clearfix" id="u5058"><!-- group -->
-        <div class="size_fixed grpelem" id="u5072"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u5072">
-<a href="" title=""><div style="background-image: url(assets/freesh-brochure-4.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u5089popup">
-       <div class="Thumb popup_element clearfix" id="u5089"><!-- group -->
-        <div class="size_fixed grpelem" id="u5103"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u5103">
-<a href="" title=""><div style="background-image: url(assets/freesh-bg.jpg);"></div><span><h3>Lorem Ipsum</h3><p>Aliquam egestas tortor vel libero pulvinar, ut iaculis leo facilisis. Praesent pretium mattis dapibus.</p></span></a>
-</div>
- 
+      <div class="popup_anchor" id="u8111popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8111"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8169"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8193-6"><!-- content -->
+          <p>HABILLAGE</p>
+          <p>CASQUETTE</p>
+         </div>
         </div>
        </div>
       </div>
      </div>
-     <div class="popup_anchor" id="u4456popup" data-lightbox="true">
-      <div class="ContainerGroup rgba-background clearfix" id="u4456"><!-- stack box -->
-       <div class="Container clearfix grpelem" id="u4779"><!-- group -->
-        <div class="clip_frame grpelem" id="u4789"><!-- image -->
-         <img class="block" id="u4789_img" src="images/freesh%20prod%20papiterie.jpg?crc=3948434955" alt="" width="755" height="465"/>
+     <div class="popup_anchor" id="u7839popup">
+      <div class="ContainerGroup clearfix" id="u7839"><!-- stack box -->
+       <div class="Container clearfix grpelem" id="u7844"><!-- group -->
+        <div class="clip_frame clearfix grpelem" id="u7845"><!-- image -->
+         <img class="position_content" id="u7845_img" src="images/freesh%20prod%20carte%20visite%202.jpg?crc=337991792" alt="" width="691" height="495"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u7847-4"><!-- content -->
+         <div id="u7847-3">
+          <p>Conception d'une carte visite pour la boite de production Freesh Prod.</p>
+         </div>
         </div>
        </div>
-       <div class="Container invi clearfix grpelem" id="u4873"><!-- group -->
-        <div class="clip_frame grpelem" id="u4888"><!-- image -->
-         <img class="block" id="u4888_img" src="images/freesh%20prod%20carte%20visite%202.jpg?crc=280231243" alt="" width="755" height="465"/>
+       <div class="Container invi clearfix grpelem" id="u7848"><!-- group -->
+        <div class="clip_frame grpelem" id="u7849"><!-- image -->
+         <img class="block" id="u7849_img" src="images/freesh%20prod%20papiterie.jpg?crc=326188117" alt="" width="687" height="492"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u7852-4"><!-- content -->
+         <div id="u7852-3">
+          <p>Conception d'une papeterie pour la boite de production Freesh Prod.</p>
+         </div>
         </div>
        </div>
-       <div class="Container invi clearfix grpelem" id="u4914"><!-- group -->
-        <div class="clip_frame grpelem" id="u4929"><!-- image -->
-         <img class="block" id="u4929_img" src="images/freesh%20prod%20hat%202.jpg?crc=469121826" alt="" width="755" height="465"/>
+       <div class="Container invi clearfix grpelem" id="u7853"><!-- group -->
+        <div class="clip_frame grpelem" id="u7855"><!-- image -->
+         <img class="block" id="u7855_img" src="images/freesh%20brochure%201.jpg?crc=4182839265" alt="" width="686" height="492"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u7854-4"><!-- content -->
+         <div id="u7854-3">
+          <p>Conception d'un catalogue pour la boite de production Freesh Prod.</p>
+         </div>
         </div>
        </div>
-       <div class="Container invi clearfix grpelem" id="u4945"><!-- group -->
-        <div class="clip_frame grpelem" id="u4976"><!-- image -->
-         <img class="block" id="u4976_img" src="images/freesh%20prod%20hat%203.jpg?crc=3892534271" alt="" width="755" height="465"/>
+       <div class="Container invi clearfix grpelem" id="u7840"><!-- group -->
+        <div class="clip_frame grpelem" id="u7841"><!-- image -->
+         <img class="block" id="u7841_img" src="images/freesh%20brochure%202.jpg?crc=3870542486" alt="" width="687" height="493"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u7843-4"><!-- content -->
+         <div id="u7843-3">
+          <p>Conception d'un catalogue pour la boite de production Freesh Prod.</p>
+         </div>
         </div>
        </div>
-       <div class="Container invi clearfix grpelem" id="u4966"><!-- group -->
-        <div class="clip_frame grpelem" id="u4986"><!-- image -->
-         <img class="block" id="u4986_img" src="images/freesh%20brochure%201.jpg?crc=3967513468" alt="" width="755" height="465"/>
+       <div class="Container invi clearfix grpelem" id="u8040"><!-- group -->
+        <div class="clip_frame grpelem" id="u8058"><!-- image -->
+         <img class="block" id="u8058_img" src="images/freesh%20brochure%203.jpg?crc=4160204851" alt="" width="687" height="493"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8068-4"><!-- content -->
+         <div id="u8068-3">
+          <p>Conception d'un catalogue pour la boite de production Freesh Prod.</p>
+         </div>
         </div>
        </div>
-       <div class="Container invi clearfix grpelem" id="u5002"><!-- group -->
-        <div class="clip_frame grpelem" id="u5017"><!-- image -->
-         <img class="block" id="u5017_img" src="images/freesh%20brochure%202.jpg?crc=147027425" alt="" width="755" height="465"/>
+       <div class="Container invi clearfix grpelem" id="u8076"><!-- group -->
+        <div class="clip_frame grpelem" id="u8131"><!-- image -->
+         <img class="block" id="u8131_img" src="images/freesh%20brochure%204.jpg?crc=3897407186" alt="" width="687" height="493"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8154-4"><!-- content -->
+         <div id="u8154-3">
+          <p>Conception d'un catalogue pour la boite de production Freesh Prod.</p>
+         </div>
         </div>
        </div>
-       <div class="Container invi clearfix grpelem" id="u5033"><!-- group -->
-        <div class="clip_frame grpelem" id="u5048"><!-- image -->
-         <img class="block" id="u5048_img" src="images/freesh%20brochure%203.jpg?crc=369873097" alt="" width="755" height="465"/>
+       <div class="Container invi clearfix grpelem" id="u8100"><!-- group -->
+        <div class="clip_frame grpelem" id="u8140"><!-- image -->
+         <img class="block" id="u8140_img" src="images/freesh%20prod%20hat%202.jpg?crc=3915322834" alt="" width="687" height="493"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8157-4"><!-- content -->
+         <div id="u8157-3">
+          <p>Habillage du logotype Freesh Prod sur une casquette.</p>
+         </div>
         </div>
        </div>
-       <div class="Container invi clearfix grpelem" id="u5064"><!-- group -->
-        <div class="clip_frame grpelem" id="u5079"><!-- image -->
-         <img class="block" id="u5079_img" src="images/freesh%20brochure%204.jpg?crc=165462713" alt="" width="755" height="465"/>
+       <div class="Container invi clearfix grpelem" id="u8114"><!-- group -->
+        <div class="clip_frame grpelem" id="u8147"><!-- image -->
+         <img class="block" id="u8147_img" src="images/freesh%20prod%20hat%203.jpg?crc=479665463" alt="" width="687" height="493"/>
         </div>
-       </div>
-       <div class="Container invi clearfix grpelem" id="u5095"><!-- group -->
-        <div class="clip_frame grpelem" id="u5110"><!-- image -->
-         <img class="block" id="u5110_img" src="images/freesh%20bg.jpg?crc=4006978952" alt="" width="755" height="465"/>
+        <div class="rgba-background clearfix grpelem" id="u8160-4"><!-- content -->
+         <div id="u8160-3">
+          <p>Habillage du logotype Freesh Prod sur une casquette.</p>
+         </div>
         </div>
        </div>
       </div>
      </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="736" data-content-above-spacer="736" data-content-below-spacer="94"></div>
+   <div class="verticalspacer" data-offset-top="606" data-content-above-spacer="605" data-content-below-spacer="111"></div>
   </div>
   <div class="preload_images">
    <img class="preload" src="images/tunetek%20logo-u916-r.png?crc=3792486281" alt=""/>
    <img class="preload" src="images/tunetek%20logo-u916-a.png?crc=3792486281" alt=""/>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
-</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide whether to suppress missing file error or not based on preference setting
@@ -361,12 +242,12 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Certains fichiers sur le serveur sont peut-être manquants ou incorrects. Videz le cache du navigateur et réessayez. Si le problème persiste, contactez le créateur du site.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('#pamphletu4453', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:1000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:1000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu4453 */
+Muse.Utils.initWidget('#pamphletu7825', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:true,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu7825 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -375,9 +256,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4177726516" type="text/javascript" async data-main="scripts/museconfig.js?crc=128606099" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-  
-  <!--HTML Widget code-->
-  
-				
    </body>
 </html>

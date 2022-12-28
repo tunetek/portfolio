@@ -1,17 +1,33 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="portfolio.wbenz.com" resolutions="1x" timestamp="1670180638148">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="portfolio.wbenz.com" resolutions="1x" timestamp="1672225034554">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-gabarit.css" crc="4041578503" ref="mimo:index:web:poste:motion:freesh:animea:graphic:macbeth:astrolabe"/>
-    <file name="mimo.css" crc="524852157" ref="mimo"/>
-    <file name="index.css" crc="3888873797" ref="index"/>
-    <file name="web.css" crc="4030358837" ref="web"/>
-    <file name="poste.css" crc="4251626119" ref="poste"/>
-    <file name="motion.css" crc="4030358837" ref="motion"/>
-    <file name="freesh.css" crc="171179917" ref="freesh"/>
-    <file name="animea.css" crc="4280129682" ref="animea"/>
-    <file name="graphic.css" crc="210242906" ref="graphic"/>
-    <file name="macbeth.css" crc="454054826" ref="macbeth"/>
-    <file name="astrolabe.css" crc="417153750" ref="astrolabe"/>
+    <file name="master_a-gabarit.css" crc="521862009" ref="motion:web:tibabiolabs:macbeth:click-to-doctor:pnud:astrolabe:golden-ships:freesh:tapitum:poste:webofly:mimo:resicover:animea:brains-spark:japan-expo:mediterranian-pub:tv-mix:mc:président:tunetek:index:benzi-store:acuapor:graphic"/>
+    <file name="motion.css" crc="389041277" ref="motion"/>
+    <file name="web.css" crc="389041277" ref="web"/>
+    <file name="tibabiolabs.css" crc="389041277" ref="tibabiolabs"/>
+    <file name="macbeth.css" crc="3841364674" ref="macbeth"/>
+    <file name="click-to-doctor.css" crc="389041277" ref="click-to-doctor"/>
+    <file name="pnud.css" crc="389041277" ref="pnud"/>
+    <file name="astrolabe.css" crc="124340716" ref="astrolabe"/>
+    <file name="golden-ships.css" crc="389041277" ref="golden-ships"/>
+    <file name="freesh.css" crc="219854752" ref="freesh"/>
+    <file name="tapitum.css" crc="389041277" ref="tapitum"/>
+    <file name="poste.css" crc="307152803" ref="poste"/>
+    <file name="webofly.css" crc="389041277" ref="webofly"/>
+    <file name="mimo.css" crc="288063378" ref="mimo"/>
+    <file name="resicover.css" crc="389041277" ref="resicover"/>
+    <file name="animea.css" crc="4249337966" ref="animea"/>
+    <file name="brains-spark.css" crc="389041277" ref="brains-spark"/>
+    <file name="japan-expo.css" crc="54742317" ref="japan-expo"/>
+    <file name="mediterranian-pub.css" crc="389041277" ref="mediterranian-pub"/>
+    <file name="tv-mix.css" crc="302243316" ref="tv-mix"/>
+    <file name="mc.css" crc="290292093" ref="mc"/>
+    <file name="pr_sident.css" crc="41626584" ref="président"/>
+    <file name="tunetek.css" crc="389041277" ref="tunetek"/>
+    <file name="index.css" crc="228375656" ref="index"/>
+    <file name="benzi-store.css" crc="389041277" ref="benzi-store"/>
+    <file name="acuapor.css" crc="389041277" ref="acuapor"/>
+    <file name="graphic.css" crc="3775378898" ref="graphic"/>
   </folder>
   <folder name="assets">
     <file name="macbeth-affiche-2.jpg" crc="4068249961" seo="true" mt="1670099336000"/>
@@ -19,45 +35,25 @@
     <file name="macbeth-billet.jpg" crc="3910824623" seo="true" mt="1670099473000"/>
     <file name="macbeth-invitation.jpg" crc="359926868" seo="true" mt="1670099508000"/>
     <file name="macbeth-bg.jpg" crc="406871107" seo="true" mt="1670099431000"/>
-    <file name="freesh-prod.-papiterie.jpg" crc="105014706" seo="true" mt="1670155662000"/>
-    <file name="freesh-prod-carte-visite-2.jpg" crc="4023448675" seo="true" mt="1670155570000"/>
-    <file name="freesh-prod-hat-2.jpg" crc="533802284" seo="true" mt="1670155556000"/>
-    <file name="freesh-prod-hat-3.jpg" crc="304629878" seo="true" mt="1670155543000"/>
-    <file name="freesh-brochure-1.jpg" crc="23558648" seo="true" mt="1670155635000"/>
-    <file name="freesh-brochure-2.jpg" crc="26051522" seo="true" mt="1670155617000"/>
-    <file name="freesh-brochure-3.jpg" crc="524322360" seo="true" mt="1670155603000"/>
-    <file name="freesh-brochure-4.jpg" crc="353725896" seo="true" mt="1670155589000"/>
-    <file name="freesh-bg.jpg" crc="4275260258" seo="true" mt="1670154726000"/>
-    <file name="poste_dupliant.jpg" crc="203409841" seo="true" mt="1670171845000"/>
-    <file name="poste_dupliant02.jpg" crc="4265417472" seo="true" mt="1670171861000"/>
-    <file name="poste_dupliant03.jpg" crc="3873403868" seo="true" mt="1670172657000"/>
-    <file name="poste_dupliant04.jpg" crc="4067229108" seo="true" mt="1670173997000"/>
-    <file name="sicav-dupliant-triface.jpg" crc="293179311" seo="true" mt="1670174685000"/>
-    <file name="mimo_dvd.jpg" crc="61764516" seo="true" mt="1670175269000"/>
-    <file name="mimo_catalogue.jpg" crc="56771627" seo="true" mt="1670175775000"/>
-    <file name="mimo_catalogue03.jpg" crc="35522196" seo="true" mt="1670178532000"/>
-    <file name="mimo_catalogue02.jpg" crc="3768201516" seo="true" mt="1670176293000"/>
-    <file name="animea-logo.jpg" crc="3935199885" seo="true" mt="1670179062000"/>
-    <file name="animea-magazine-couv.jpg" crc="3810864819" seo="true" mt="1670179079000"/>
-    <file name="animea-magazine-inside.jpg" crc="4263567719" seo="true" mt="1670179088000"/>
-    <file name="animea-magazine.jpg" crc="456175336" seo="true" mt="1670179105000"/>
-    <file name="astrolabe-logo.jpg" crc="239263732" seo="true" mt="1670150548000"/>
-    <file name="astrolabe-logo-tampon.jpg" crc="4081262358" seo="true" mt="1670150474000"/>
-    <file name="podcast-script-microphone-1024x683.jpg" crc="4274973583" seo="true" mt="1670151210000"/>
     <file name="astrolabe-logo-incrustation-cup.jpg" crc="3770610052" seo="true" mt="1670150512000"/>
+    <file name="podcast-script-microphone-1024x683.jpg" crc="4274973583" seo="true" mt="1670151210000"/>
+    <file name="mc-habillage-01.jpg" crc="3840324759" seo="true" mt="1671194152000"/>
+    <file name="mc-habillage-02.jpg" crc="3866253212" seo="true" mt="1671194219000"/>
+    <file name="mc-habillage-03.jpg" crc="344713505" seo="true" mt="1671194453000"/>
+    <file name="mc-habillage-04.jpg" crc="3820436389" seo="true" mt="1671194606000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="museutils.js" crc="3939489907" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="whatinput.js" crc="86476730" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="museconfig.js" crc="128606099" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:graphic"/>
-    <file name="webpro.js" crc="3856315280" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="musewpslideshow.js" crc="244150766" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="jquery.museoverlay.js" crc="3877667098" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="touchswipe.js" crc="3888935200" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="jquery.watch.js" crc="522499760" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="require.js" crc="4177726516" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
+    <file name="museutils.js" crc="3939489907" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
+    <file name="whatinput.js" crc="86476730" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
+    <file name="museconfig.js" crc="128606099" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:mc"/>
+    <file name="webpro.js" crc="3856315280" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:mc"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:mc"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:mc"/>
+    <file name="touchswipe.js" crc="3888935200" ref="index:graphic:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:mc"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
+    <file name="require.js" crc="4177726516" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="150607452" ref="index"/>
@@ -65,9 +61,9 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="tunetek logo-u916.png" crc="371846458" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="tunetek logo-u916-r.png" crc="3792486281" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
-    <file name="tunetek logo-u916-a.png" crc="3792486281" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea"/>
+    <file name="tunetek logo-u916.png" crc="371846458" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
+    <file name="tunetek logo-u916-r.png" crc="3792486281" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
+    <file name="tunetek logo-u916-a.png" crc="3792486281" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud"/>
     <file name="book_shelf_shadow-u986-fr.png" crc="4114835387" ref="index"/>
     <file name="stick note-u1163.png" crc="4048606437" ref="index"/>
     <file name="u580-6.png" crc="4146618003" ref="index"/>
@@ -92,6 +88,34 @@
     </file>
     <file name="book_btn_03_hover.png" crc="4184790956" ref="index">
       <caption webpage="index" alt=""/>
+    </file>
+    <file name="wall wood bg.jpg" crc="4149866830" ref="index:graphic:motion:web:macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:benzi-store:tibabiolabs:click-to-doctor:golden-ships:tapitum:webofly:resicover:brains-spark:mediterranian-pub:mc:tunetek:acuapor:pnud">
+      <caption webpage="japan-expo" alt=""/>
+      <caption webpage="acuapor" alt=""/>
+      <caption webpage="click-to-doctor" alt=""/>
+      <caption webpage="pnud" alt=""/>
+      <caption webpage="tunetek" alt=""/>
+      <caption webpage="graphic" alt=""/>
+      <caption webpage="webofly" alt=""/>
+      <caption webpage="benzi-store" alt=""/>
+      <caption webpage="mc" alt=""/>
+      <caption webpage="mimo" alt=""/>
+      <caption webpage="golden-ships" alt=""/>
+      <caption webpage="brains-spark" alt=""/>
+      <caption webpage="mediterranian-pub" alt=""/>
+      <caption webpage="poste" alt=""/>
+      <caption webpage="tibabiolabs" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="motion" alt=""/>
+      <caption webpage="web" alt=""/>
+      <caption webpage="freesh" alt=""/>
+      <caption webpage="resicover" alt=""/>
+      <caption webpage="président" alt=""/>
+      <caption webpage="tv-mix" alt=""/>
+      <caption webpage="astrolabe" alt=""/>
+      <caption webpage="tapitum" alt=""/>
+      <caption webpage="animea" alt=""/>
+      <caption webpage="macbeth" alt=""/>
     </file>
     <file name="graphic book shelf.png" crc="414644258" ref="graphic">
       <caption webpage="graphic" alt=""/>
@@ -247,20 +271,17 @@
     </file>
     <file name="animea_btn_hover.jpg" crc="3944308895" ref="graphic">
       <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
     </file>
     <file name="japan_expo_btn.jpg" crc="186064912" ref="graphic">
       <caption webpage="graphic" alt=""/>
     </file>
     <file name="japan_expo_btn_hover.jpg" crc="227953291" ref="graphic">
       <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
     </file>
     <file name="tvmix_btn.jpg" crc="3902571563" ref="graphic">
       <caption webpage="graphic" alt=""/>
     </file>
     <file name="tvmix_btn_hover.jpg" crc="78583968" ref="graphic">
-      <caption webpage="graphic" alt=""/>
       <caption webpage="graphic" alt=""/>
     </file>
     <file name="président_btn.jpg" crc="421842573" ref="graphic">
@@ -338,7 +359,6 @@
     </file>
     <file name="resto_magh_btn_hover.jpg" crc="3949365163" ref="graphic">
       <caption webpage="graphic" alt=""/>
-      <caption webpage="graphic" alt=""/>
     </file>
     <file name="tunetek_btn.jpg" crc="3994533481" ref="graphic">
       <caption webpage="graphic" alt=""/>
@@ -354,105 +374,214 @@
       <caption webpage="graphic" alt=""/>
       <caption webpage="graphic" alt=""/>
     </file>
-    <file name="macbeth affiche 2.jpg" crc="3855145529" seo="true" ref="macbeth">
+    <file name="macbeth affiche 2-u8210-fr.jpg" crc="523921982" ref="macbeth"/>
+    <file name="blank.gif" crc="4208392903" ref="macbeth:astrolabe:freesh:poste:mimo:animea:japan-expo:tv-mix:président:mc"/>
+    <file name="macbeth affiche-u8201-fr.jpg" crc="3835790200" ref="macbeth"/>
+    <file name="macbeth billet-u8207-fr.jpg" crc="4264188396" ref="macbeth"/>
+    <file name="macbeth invitation-u8204-fr.jpg" crc="31643086" ref="macbeth"/>
+    <file name="macbeth affiche 2.jpg" crc="3938612209" seo="true" ref="macbeth">
       <caption webpage="macbeth" alt=""/>
     </file>
-    <file name="macbeth affiche.jpg" crc="4281052849" seo="true" ref="macbeth">
+    <file name="macbeth affiche.jpg" crc="137734175" seo="true" ref="macbeth">
       <caption webpage="macbeth" alt=""/>
     </file>
-    <file name="macbeth invitation.jpg" crc="3868789421" seo="true" ref="macbeth">
+    <file name="macbeth billet.jpg" crc="3803946706" seo="true" ref="macbeth">
       <caption webpage="macbeth" alt=""/>
     </file>
-    <file name="macbeth billet.jpg" crc="226534189" seo="true" ref="macbeth">
+    <file name="macbeth invitation.jpg" crc="3849858257" seo="true" ref="macbeth">
       <caption webpage="macbeth" alt=""/>
     </file>
-    <file name="astrolabe logo.jpg" crc="92488764" seo="true" ref="astrolabe">
+    <file name="astrolabe logo-u7667-fr.jpg" crc="394847528" ref="astrolabe"/>
+    <file name="podcast-script-microphone-1024x683-u7661-fr.jpg" crc="393709515" ref="astrolabe"/>
+    <file name="astrolabe logo tampon-u7670-fr.jpg" crc="3925081601" ref="astrolabe"/>
+    <file name="astrolabe logo incrustation cup-u7664-fr.jpg" crc="503842831" ref="astrolabe"/>
+    <file name="astrolabe logo.jpg" crc="312267816" seo="true" ref="astrolabe">
       <caption webpage="astrolabe" alt=""/>
     </file>
-    <file name="astrolabe logo tampon.jpg" crc="3834680794" seo="true" ref="astrolabe">
+    <file name="podcast-script-microphone-1024x683.jpg" crc="4179698511" seo="true" ref="astrolabe">
       <caption webpage="astrolabe" alt=""/>
     </file>
-    <file name="astrolabe logo incrustation cup.jpg" crc="3871155255" seo="true" ref="astrolabe">
+    <file name="astrolabe logo tampon.jpg" crc="31351845" seo="true" ref="astrolabe">
       <caption webpage="astrolabe" alt=""/>
     </file>
-    <file name="podcast-script-microphone-1024x683.jpg" crc="354447281" seo="true" ref="astrolabe">
+    <file name="astrolabe logo incrustation cup.jpg" crc="176948104" seo="true" ref="astrolabe">
       <caption webpage="astrolabe" alt=""/>
     </file>
-    <file name="freesh prod papiterie.jpg" crc="3948434955" seo="true" ref="freesh">
+    <file name="freesh prod carte visite 2-u7836-fr.jpg" crc="4195715373" ref="freesh"/>
+    <file name="freesh prod papiterie-u7827-fr.jpg" crc="4174362973" ref="freesh"/>
+    <file name="freesh brochure 1-u7833-fr.jpg" crc="370360410" ref="freesh"/>
+    <file name="freesh brochure 2-u7830-fr.jpg" crc="3819203765" ref="freesh"/>
+    <file name="freesh brochure 3-u8033-fr.jpg" crc="45777973" ref="freesh"/>
+    <file name="freesh brochure 4-u8071-fr.jpg" crc="149757322" ref="freesh"/>
+    <file name="freesh prod hat 2-u8097-fr.jpg" crc="267550289" ref="freesh"/>
+    <file name="freesh prod hat 3-u8111-fr.jpg" crc="4254497061" ref="freesh"/>
+    <file name="freesh prod carte visite 2.jpg" crc="337991792" seo="true" ref="freesh">
       <caption webpage="freesh" alt=""/>
     </file>
-    <file name="freesh prod carte visite 2.jpg" crc="280231243" seo="true" ref="freesh">
+    <file name="freesh prod papiterie.jpg" crc="326188117" seo="true" ref="freesh">
       <caption webpage="freesh" alt=""/>
     </file>
-    <file name="freesh prod hat 2.jpg" crc="469121826" seo="true" ref="freesh">
+    <file name="freesh brochure 1.jpg" crc="4182839265" seo="true" ref="freesh">
       <caption webpage="freesh" alt=""/>
     </file>
-    <file name="freesh prod hat 3.jpg" crc="3892534271" seo="true" ref="freesh">
+    <file name="freesh brochure 2.jpg" crc="3870542486" seo="true" ref="freesh">
       <caption webpage="freesh" alt=""/>
     </file>
-    <file name="freesh brochure 1.jpg" crc="3967513468" seo="true" ref="freesh">
+    <file name="freesh brochure 3.jpg" crc="4160204851" seo="true" ref="freesh">
       <caption webpage="freesh" alt=""/>
     </file>
-    <file name="freesh brochure 2.jpg" crc="147027425" seo="true" ref="freesh">
+    <file name="freesh brochure 4.jpg" crc="3897407186" seo="true" ref="freesh">
       <caption webpage="freesh" alt=""/>
     </file>
-    <file name="freesh brochure 3.jpg" crc="369873097" seo="true" ref="freesh">
+    <file name="freesh prod hat 2.jpg" crc="3915322834" seo="true" ref="freesh">
       <caption webpage="freesh" alt=""/>
     </file>
-    <file name="freesh brochure 4.jpg" crc="165462713" seo="true" ref="freesh">
+    <file name="freesh prod hat 3.jpg" crc="479665463" seo="true" ref="freesh">
       <caption webpage="freesh" alt=""/>
     </file>
-    <file name="freesh bg.jpg" crc="4006978952" seo="true" ref="freesh">
-      <caption webpage="freesh" alt=""/>
-    </file>
-    <file name="poste_dupliant.jpg" crc="55813930" seo="true" ref="poste">
+    <file name="poste_dupliant-u8397-fr.jpg" crc="3898826399" ref="poste"/>
+    <file name="poste_dupliant02-u8400-fr.jpg" crc="3810061834" ref="poste"/>
+    <file name="poste_dupliant03-u8406-fr.jpg" crc="27425324" ref="poste"/>
+    <file name="sicav dupliant triface-u8403-fr.jpg" crc="129532245" ref="poste"/>
+    <file name="poste_dupliant.jpg" crc="3985349422" seo="true" ref="poste">
       <caption webpage="poste" alt=""/>
     </file>
-    <file name="poste_dupliant02.jpg" crc="4265536520" seo="true" ref="poste">
+    <file name="poste_dupliant02.jpg" crc="3897574653" seo="true" ref="poste">
       <caption webpage="poste" alt=""/>
     </file>
-    <file name="poste_dupliant03.jpg" crc="35464733" seo="true" ref="poste">
+    <file name="poste_dupliant03.jpg" crc="354560936" seo="true" ref="poste">
       <caption webpage="poste" alt=""/>
     </file>
-    <file name="poste_dupliant04.jpg" crc="422079924" seo="true" ref="poste">
+    <file name="sicav dupliant triface.jpg" crc="492258310" seo="true" ref="poste">
       <caption webpage="poste" alt=""/>
     </file>
-    <file name="sicav dupliant triface.jpg" crc="4059645455" seo="true" ref="poste">
-      <caption webpage="poste" alt=""/>
-    </file>
-    <file name="mimo_dvd.jpg" crc="4198391683" seo="true" ref="mimo">
+    <file name="mimo_dvd-u8584-fr.jpg" crc="160650059" ref="mimo"/>
+    <file name="mimo_catalogue03-u8587-fr.jpg" crc="4023711508" ref="mimo"/>
+    <file name="mimo_catalogue02-u8590-fr.jpg" crc="86230763" ref="mimo"/>
+    <file name="mimo_catalogue-u8581-fr.jpg" crc="266001250" ref="mimo"/>
+    <file name="mimo_dvd.jpg" crc="3831324545" seo="true" ref="mimo">
       <caption webpage="mimo" alt=""/>
     </file>
-    <file name="mimo_catalogue.jpg" crc="103934588" seo="true" ref="mimo">
+    <file name="mimo_catalogue03.jpg" crc="4240991683" seo="true" ref="mimo">
       <caption webpage="mimo" alt=""/>
     </file>
-    <file name="mimo_catalogue02.jpg" crc="3786265999" seo="true" ref="mimo">
+    <file name="mimo_catalogue02.jpg" crc="217160555" seo="true" ref="mimo">
       <caption webpage="mimo" alt=""/>
     </file>
-    <file name="mimo_catalogue03.jpg" crc="3794371846" seo="true" ref="mimo">
+    <file name="mimo_catalogue.jpg" crc="535187954" seo="true" ref="mimo">
       <caption webpage="mimo" alt=""/>
     </file>
-    <file name="animea logo.jpg" crc="482806129" seo="true" ref="animea">
+    <file name="animea logo-u8759-fr.jpg" crc="4099220375" ref="animea:président"/>
+    <file name="animea magazine-u8768-fr.jpg" crc="4264631394" ref="animea:président"/>
+    <file name="animea magazine inside-u8762-fr.jpg" crc="3834828440" ref="animea:président"/>
+    <file name="animea magazine couv-u8765-fr.jpg" crc="3793163150" ref="animea:président"/>
+    <file name="animea logo.jpg" crc="205919308" seo="true" ref="animea:président">
       <caption webpage="animea" alt=""/>
+      <caption webpage="président" alt=""/>
     </file>
-    <file name="animea magazine couv.jpg" crc="67759041" seo="true" ref="animea">
+    <file name="animea magazine.jpg" crc="254491800" seo="true" ref="animea:président">
       <caption webpage="animea" alt=""/>
+      <caption webpage="président" alt=""/>
     </file>
-    <file name="animea magazine inside.jpg" crc="3807938267" seo="true" ref="animea">
+    <file name="animea magazine inside.jpg" crc="3785226986" seo="true" ref="animea:président">
       <caption webpage="animea" alt=""/>
+      <caption webpage="président" alt=""/>
     </file>
-    <file name="animea magazine.jpg" crc="378815248" seo="true" ref="animea">
+    <file name="animea magazine couv.jpg" crc="398626856" seo="true" ref="animea:président">
       <caption webpage="animea" alt=""/>
+      <caption webpage="président" alt=""/>
     </file>
+    <file name="japan expo invitation-u8934-fr.jpg" crc="4005629905" ref="japan-expo"/>
+    <file name="japan expo flyer-u8916-fr.jpg" crc="3988955538" ref="japan-expo"/>
+    <file name="japan expo flyer inside-u8913-fr.jpg" crc="3989238502" ref="japan-expo"/>
+    <file name="préposition 7-u8931-fr.jpg" crc="74964820" ref="japan-expo"/>
+    <file name="préposition 12-u8919-fr.jpg" crc="38539256" ref="japan-expo"/>
+    <file name="préposition 17-u8925-fr.jpg" crc="3943365055" ref="japan-expo"/>
+    <file name="préposition 18 japonais-u8928-fr.jpg" crc="3929730180" ref="japan-expo"/>
+    <file name="préposition 8-u8922-fr.jpg" crc="2803379" ref="japan-expo"/>
+    <file name="japan expo invitation.jpg" crc="4267128681" seo="true" ref="japan-expo">
+      <caption webpage="japan-expo" alt=""/>
+    </file>
+    <file name="japan expo flyer.jpg" crc="4212869576" seo="true" ref="japan-expo">
+      <caption webpage="japan-expo" alt=""/>
+    </file>
+    <file name="japan expo flyer inside.jpg" crc="25399119" seo="true" ref="japan-expo">
+      <caption webpage="japan-expo" alt=""/>
+    </file>
+    <file name="préposition 7.jpg" crc="4094044557" seo="true" ref="japan-expo">
+      <caption webpage="japan-expo" alt=""/>
+    </file>
+    <file name="préposition 12.jpg" crc="37680916" seo="true" ref="japan-expo">
+      <caption webpage="japan-expo" alt=""/>
+    </file>
+    <file name="préposition 17.jpg" crc="515753201" seo="true" ref="japan-expo">
+      <caption webpage="japan-expo" alt=""/>
+    </file>
+    <file name="préposition 18 japonais.jpg" crc="257874970" seo="true" ref="japan-expo">
+      <caption webpage="japan-expo" alt=""/>
+    </file>
+    <file name="préposition 8.jpg" crc="370631352" seo="true" ref="japan-expo">
+      <caption webpage="japan-expo" alt=""/>
+    </file>
+    <file name="tv mix logo page-u9252-fr.jpg" crc="358042052" ref="tv-mix"/>
+    <file name="tv mix couverture-u9255-fr.jpg" crc="3906623628" ref="tv-mix"/>
+    <file name="tv mix couv et page 1-u9261-fr.jpg" crc="283049406" ref="tv-mix"/>
+    <file name="tv mix carte visite-u9258-fr.jpg" crc="4156053770" ref="tv-mix"/>
+    <file name="tv mix affiche vertical-u9240-fr.jpg" crc="4029672844" ref="tv-mix"/>
+    <file name="tv mix outdoor affiche-u9243-fr.jpg" crc="221167571" ref="tv-mix"/>
+    <file name="tv mix insertion press-u9246-fr.jpg" crc="4013342322" ref="tv-mix"/>
+    <file name="tv mix cup logo-u9249-fr.jpg" crc="3962858966" ref="tv-mix"/>
+    <file name="tv mix logo page.jpg" crc="4114701883" seo="true" ref="tv-mix">
+      <caption webpage="tv-mix" alt=""/>
+    </file>
+    <file name="tv mix couverture.jpg" crc="4229560983" seo="true" ref="tv-mix">
+      <caption webpage="tv-mix" alt=""/>
+    </file>
+    <file name="tv mix couv et page 1.jpg" crc="417320242" seo="true" ref="tv-mix">
+      <caption webpage="tv-mix" alt=""/>
+    </file>
+    <file name="tv mix carte visite.jpg" crc="3824060841" seo="true" ref="tv-mix">
+      <caption webpage="tv-mix" alt=""/>
+    </file>
+    <file name="tv mix affiche vertical.jpg" crc="127064143" seo="true" ref="tv-mix">
+      <caption webpage="tv-mix" alt=""/>
+    </file>
+    <file name="tv mix outdoor affiche.jpg" crc="4135320694" seo="true" ref="tv-mix">
+      <caption webpage="tv-mix" alt=""/>
+    </file>
+    <file name="tv mix insertion press.jpg" crc="518206075" seo="true" ref="tv-mix">
+      <caption webpage="tv-mix" alt=""/>
+    </file>
+    <file name="tv mix cup logo.jpg" crc="4101101476" seo="true" ref="tv-mix">
+      <caption webpage="tv-mix" alt=""/>
+    </file>
+    <file name="maghreb cocktail logo 3-u9708-fr.jpg" crc="4269286244" ref="mc"/>
+    <file name="freesh bg-u9929-fr.jpg" crc="345307920" ref="mc"/>
   </folder>
-  <file name="index.html" crc="205808103" seo="true" mt="1670180612533" redirect="true"/>
-  <file name="graphic.html" crc="3836826091" seo="true" mt="1670180564194" redirect="true"/>
-  <file name="motion.html" crc="4282765747" seo="true" mt="1670180564194" redirect="true"/>
-  <file name="web.html" crc="4261402679" seo="true" mt="1670180564194" redirect="true"/>
-  <file name="macbeth.html" crc="4167972318" seo="true" mt="1670180564194" redirect="true"/>
-  <file name="astrolabe.html" crc="4181723305" seo="true" mt="1670180564194" redirect="true"/>
-  <file name="freesh.html" crc="3832232187" seo="true" mt="1670180564194" redirect="true"/>
-  <file name="poste.html" crc="179017978" seo="true" mt="1670180564194" redirect="true"/>
-  <file name="mimo.html" crc="4096607719" seo="true" mt="1670180564194" redirect="true"/>
-  <file name="animea.html" crc="3923219618" seo="true" mt="1670180564194" redirect="true"/>
+  <file name="index.html" crc="4131101796" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="graphic.html" crc="3920873" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="motion.html" crc="3939537974" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="web.html" crc="4056208683" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="macbeth.html" crc="398654708" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="astrolabe.html" crc="4132737336" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="freesh.html" crc="3954186093" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="poste.html" crc="3962588482" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="mimo.html" crc="3765398459" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="animea.html" crc="4159639943" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="japan-expo.html" crc="118465986" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="tv-mix.html" crc="446358044" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="président.html" crc="4271787726" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="benzi-store.html" crc="4259919935" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="tibabiolabs.html" crc="97169211" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="click-to-doctor.html" crc="190432954" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="golden-ships.html" crc="42311453" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="tapitum.html" crc="3787904176" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="webofly.html" crc="329762207" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="resicover.html" crc="4291462483" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="brains-spark.html" crc="69731640" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="mediterranian-pub.html" crc="3860189272" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="mc.html" crc="202470156" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="tunetek.html" crc="185489428" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="acuapor.html" crc="465015624" seo="true" mt="1672224851581" redirect="true"/>
+  <file name="pnud.html" crc="79282205" seo="true" mt="1672224851581" redirect="true"/>
 </manifest>

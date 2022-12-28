@@ -10,82 +10,133 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "mimo.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "mimo.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=150607452"/>
   <title>Mimo</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-gabarit.css?crc=4041578503"/>
-  <link rel="stylesheet" type="text/css" href="css/mimo.css?crc=524852157" id="pagesheet"/>
-    <!--HTML Widget code-->
-  
-<style>
-.u5934 a { position: relative; float: left; width: 298px; height: 190px; overflow: visible; display: block; background-color: #000000; text-decoration: none; }
-.u5934 a div { position: relative; z-index: 1; width: 298px; height: 190px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u5934 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5934 a:hover div:before { opacity: 0.7; }
-.u5934 a:hover div { width: 298px; height: 190px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u5934 a:active div { width: 298px; height: 190px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u5934 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u5934 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u5934 a:hover span h3 { }
-.u5934 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5934 a:hover span p { opacity: 1; max-height: 200px; }
+  <link rel="stylesheet" type="text/css" href="css/master_a-gabarit.css?crc=521862009"/>
+  <link rel="stylesheet" type="text/css" href="css/mimo.css?crc=288063378" id="pagesheet"/>
+    <!--custom head HTML-->
+  <style>
+.thumb, .thumb-ico {
+transition:all 0.4s ease 0s;
+}
 </style>
 
-<style>
-.u5932 a { position: relative; float: left; width: 298px; height: 190px; overflow: visible; display: block; background-color: #000000; text-decoration: none; }
-.u5932 a div { position: relative; z-index: 1; width: 298px; height: 190px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u5932 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5932 a:hover div:before { opacity: 0.7; }
-.u5932 a:hover div { width: 298px; height: 190px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u5932 a:active div { width: 298px; height: 190px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u5932 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u5932 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u5932 a:hover span h3 { }
-.u5932 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5932 a:hover span p { opacity: 1; max-height: 200px; }
+<style type="text/css">
+html,body{
+overflow-y:hidden;
+overflow-x:hidden;
+}
 </style>
-
 <style>
-.u5930 a { position: relative; float: left; width: 298px; height: 190px; overflow: visible; display: block; background-color: #000000; text-decoration: none; }
-.u5930 a div { position: relative; z-index: 1; width: 298px; height: 190px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u5930 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5930 a:hover div:before { opacity: 0.7; }
-.u5930 a:hover div { width: 298px; height: 190px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u5930 a:active div { width: 298px; height: 190px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u5930 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u5930 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u5930 a:hover span h3 { }
-.u5930 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5930 a:hover span p { opacity: 1; max-height: 200px; }
+.thumb, .thumb-ico {
+transition:all 0.4s ease 0s;
+}
 </style>
-
-<style>
-.u5928 a { position: relative; float: left; width: 298px; height: 193px; overflow: visible; display: block; background-color: #000000; text-decoration: none; }
-.u5928 a div { position: relative; z-index: 1; width: 298px; height: 193px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u5928 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5928 a:hover div:before { opacity: 0.7; }
-.u5928 a:hover div { width: 298px; height: 193px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u5928 a:active div { width: 298px; height: 193px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u5928 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u5928 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u5928 a:hover span h3 { }
-.u5928 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u5928 a:hover span p { opacity: 1; max-height: 200px; }
-</style>
-
  </head>
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu1006"><!-- group -->
+   <div class="clearfix grpelem" id="ppamphletu8555"><!-- group -->
+    <div class="PamphletWidget clearfix" id="pamphletu8555"><!-- none box -->
+     <div class="ThumbGroup clearfix grpelem" id="u8580"><!-- none box -->
+      <div class="popup_anchor" id="u8584popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8584"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8586"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8585-6"><!-- content -->
+          <p>POCHETTE DVD</p>
+          <p>MIMO</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8587popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8587"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8589"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8588-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>MIMO</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8590popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8590"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8591"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8592-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>MIMO</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8581popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8581"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8582"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8583-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>MIMO</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u8556popup">
+      <div class="ContainerGroup clearfix" id="u8556"><!-- stack box -->
+       <div class="Container clearfix grpelem" id="u8557"><!-- group -->
+        <div class="clip_frame clearfix grpelem" id="u8559"><!-- image -->
+         <img class="position_content" id="u8559_img" src="images/mimo_dvd.jpg?crc=3831324545" alt="" width="804" height="495"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8558-4"><!-- content -->
+         <div id="u8558-3">
+          <p>Conception d'une pochette DVD pour une série de télévision MIMO.</p>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8565"><!-- group -->
+        <div class="clip_frame grpelem" id="u8568"><!-- image -->
+         <img class="block" id="u8568_img" src="images/mimo_catalogue03.jpg?crc=4240991683" alt="" width="799" height="492"/>
+        </div>
+        <div class="clearfix grpelem" id="pu8566-4"><!-- group -->
+         <div class="rgba-background clearfix grpelem" id="u8566-4"><!-- content -->
+          <div id="u8566-3">
+           <p>Habillage d'un logotype.</p>
+          </div>
+         </div>
+         <div class="rgba-background clearfix grpelem" id="u8567-4"><!-- content -->
+          <div id="u8567-3">
+           <p>Conception d'un catalogue pour une série de télévision MIMO.</p>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8570"><!-- group -->
+        <div class="clip_frame grpelem" id="u8572"><!-- image -->
+         <img class="block" id="u8572_img" src="images/mimo_catalogue02.jpg?crc=217160555" alt="" width="799" height="492"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8571-4"><!-- content -->
+         <div id="u8571-3">
+          <p>Conception d'un catalogue pour une série de télévision MIMO.</p>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8561"><!-- group -->
+        <div class="clip_frame grpelem" id="u8562"><!-- image -->
+         <img class="block" id="u8562_img" src="images/mimo_catalogue.jpg?crc=535187954" alt="" width="800" height="493"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8564-4"><!-- content -->
+         <div id="u8564-3">
+          <p>Conception d'un catalogue pour une série de télévision MIMO.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
     <div class="browser_width" id="u1006-bw">
      <div id="u1006"><!-- simple frame --></div>
     </div>
@@ -98,98 +149,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <a class="nonblock nontext" id="u656" href="index.html"><!-- simple frame --></a>
     </div>
    </div>
-   <div class="clearfix grpelem" id="ppu916"><!-- column -->
-    <a class="nonblock nontext transition pinned-colelem" id="u916" href="index.html"><!-- state-based BG images --></a>
-    <div class="PamphletWidget clearfix widget_invisible colelem" id="pamphletu5908" data-islightbox="true"><!-- none box -->
-     <div class="ThumbGroup clearfix grpelem" id="u5926"><!-- none box -->
-      <div class="popup_anchor" id="u5933popup">
-       <div class="Thumb popup_element clearfix" id="u5933"><!-- group -->
-        <div class="size_fixed grpelem" id="u5934"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u5934">
-<a href="" title=""><div style="background-image: url(assets/mimo_dvd.jpg);"></div><span><h3>Logotype Astrolabe</h3><p>Conception d'un logotype pour la chaine de télévision Astrolabe.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u5931popup">
-       <div class="Thumb popup_element clearfix" id="u5931"><!-- group -->
-        <div class="size_fixed grpelem" id="u5932"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u5932">
-<a href="" title=""><div style="background-image: url(assets/mimo_catalogue.jpg);"></div><span><h3>Tampon Astrolabe</h3><p>Déclinaison du logotype Astrolabe pour un tampon.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u5929popup">
-       <div class="Thumb popup_element clearfix" id="u5929"><!-- group -->
-        <div class="size_fixed grpelem" id="u5930"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u5930">
-<a href="" title=""><div style="background-image: url(assets/mimo_catalogue02.jpg);"></div><span><h3>Microphone Astrolabe</h3><p>Déclinaison du logotype Astrolabe pour un microphone.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u5927popup">
-       <div class="Thumb popup_element clearfix" id="u5927"><!-- group -->
-        <div class="size_fixed grpelem" id="u5928"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u5928">
-<a href="" title=""><div style="background-image: url(assets/mimo_catalogue03.jpg);"></div><span><h3>Tasse Astrolabe</h3><p>Déclinaison du logotype Astrolabe pour une tasse.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="popup_anchor" id="u5913popup" data-lightbox="true">
-      <div class="ContainerGroup rgba-background clearfix" id="u5913"><!-- stack box -->
-       <div class="Container clearfix grpelem" id="u5914"><!-- group -->
-        <div class="clip_frame grpelem" id="u5915"><!-- image -->
-         <img class="block" id="u5915_img" src="images/mimo_dvd.jpg?crc=4198391683" alt="" width="755" height="465"/>
-        </div>
-       </div>
-       <div class="Container invi clearfix grpelem" id="u5923"><!-- group -->
-        <div class="clip_frame grpelem" id="u5924"><!-- image -->
-         <img class="block" id="u5924_img" src="images/mimo_catalogue.jpg?crc=103934588" alt="" width="755" height="465"/>
-        </div>
-       </div>
-       <div class="Container invi clearfix grpelem" id="u5920"><!-- group -->
-        <div class="clip_frame grpelem" id="u5921"><!-- image -->
-         <img class="block" id="u5921_img" src="images/mimo_catalogue02.jpg?crc=3786265999" alt="" width="755" height="465"/>
-        </div>
-       </div>
-       <div class="Container invi clearfix grpelem" id="u5917"><!-- group -->
-        <div class="clip_frame grpelem" id="u5918"><!-- image -->
-         <img class="block" id="u5918_img" src="images/mimo_catalogue03.jpg?crc=3794371846" alt="" width="755" height="465"/>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-   <div class="verticalspacer" data-offset-top="526" data-content-above-spacer="526" data-content-below-spacer="118"></div>
+   <a class="nonblock nontext transition" id="u916" href="index.html"><!-- state-based BG images --></a>
+   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="605" data-content-below-spacer="714"></div>
   </div>
   <div class="preload_images">
    <img class="preload" src="images/tunetek%20logo-u916-r.png?crc=3792486281" alt=""/>
    <img class="preload" src="images/tunetek%20logo-u916-a.png?crc=3792486281" alt=""/>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
-</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide whether to suppress missing file error or not based on preference setting
@@ -201,12 +167,12 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Certains fichiers sur le serveur sont peut-être manquants ou incorrects. Videz le cache du navigateur et réessayez. Si le problème persiste, contactez le créateur du site.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('#pamphletu5908', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:1000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:1000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu5908 */
+Muse.Utils.initWidget('#pamphletu8555', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:true,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu8555 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -215,9 +181,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4177726516" type="text/javascript" async data-main="scripts/museconfig.js?crc=128606099" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-  
-  <!--HTML Widget code-->
-  
-				
    </body>
 </html>

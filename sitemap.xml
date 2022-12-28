@@ -2,49 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://portfolio.wbenz.com/index.html</loc>
-    <lastmod>2022-12-04</lastmod>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/mimo.html</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/mimo_dvd.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/mimo_catalogue.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/mimo_catalogue02.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/mimo_catalogue03.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/animea.html</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/animea%20logo.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine%20couv.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine%20inside.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine.jpg</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>http://portfolio.wbenz.com/poste.html</loc>
-    <lastmod>2022-12-04</lastmod>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -57,28 +21,157 @@
       <image:loc>http://portfolio.wbenz.com/images/poste_dupliant03.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/poste_dupliant04.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://portfolio.wbenz.com/images/sicav%20dupliant%20triface.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/freesh.html</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/mimo.html</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/freesh%20prod%20papiterie.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/mimo_dvd.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/mimo_catalogue03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/mimo_catalogue02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/mimo_catalogue.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/animea.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/animea%20logo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine%20inside.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine%20couv.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/acuapor.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/tunetek.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/pnud.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/mediterranian-pub.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/brains-spark.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/mc.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/webofly.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/tapitum.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/graphic.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/motion.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/web.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/macbeth.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/macbeth%20affiche%202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/macbeth%20affiche.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/macbeth%20billet.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/macbeth%20invitation.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/astrolabe.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/astrolabe%20logo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/podcast-script-microphone-1024x683.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/astrolabe%20logo%20tampon.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/astrolabe%20logo%20incrustation%20cup.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/freesh.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <image:image>
       <image:loc>http://portfolio.wbenz.com/images/freesh%20prod%20carte%20visite%202.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/freesh%20prod%20hat%202.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/freesh%20prod%20hat%203.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/freesh%20prod%20papiterie.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://portfolio.wbenz.com/images/freesh%20brochure%201.jpg</image:loc>
@@ -93,186 +186,117 @@
       <image:loc>http://portfolio.wbenz.com/images/freesh%20brochure%204.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/freesh%20bg.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/freesh%20prod%20hat%202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/freesh%20prod%20hat%203.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/astrolabe.html</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/pr%C3%A9sident.html</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/astrolabe%20logo.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/animea%20logo.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/astrolabe%20logo%20tampon.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/astrolabe%20logo%20incrustation%20cup.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine%20inside.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/podcast-script-microphone-1024x683.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/animea%20magazine%20couv.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/macbeth.html</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/tv-mix.html</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/macbeth%20affiche%202.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/tv%20mix%20logo%20page.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/macbeth%20affiche.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/tv%20mix%20couverture.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/macbeth%20invitation.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/tv%20mix%20couv%20et%20page%201.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://portfolio.wbenz.com/images/macbeth%20billet.jpg</image:loc>
+      <image:loc>http://portfolio.wbenz.com/images/tv%20mix%20carte%20visite.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/tv%20mix%20affiche%20vertical.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/tv%20mix%20outdoor%20affiche.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/tv%20mix%20insertion%20press.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/tv%20mix%20cup%20logo.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/web.html</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/resicover.html</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/motion.html</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/japan-expo.html</loc>
+    <lastmod>2022-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/japan%20expo%20invitation.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/japan%20expo%20flyer.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/japan%20expo%20flyer%20inside.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/pr%C3%A9position%207.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/pr%C3%A9position%2012.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/pr%C3%A9position%2017.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/pr%C3%A9position%2018%20japonais.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://portfolio.wbenz.com/images/pr%C3%A9position%208.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/click-to-doctor.html</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/graphic.html</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/golden-ships.html</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-brochure-2.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/benzi-store.html</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-brochure-3.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-brochure-4.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-bg.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/poste_dupliant.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/poste_dupliant02.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/poste_dupliant03.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/poste_dupliant04.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/sicav-dupliant-triface.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-prod-hat-3.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-brochure-1.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/mimo_catalogue03.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/mimo_catalogue02.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/animea-logo.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/animea-magazine-couv.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/animea-magazine-inside.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/animea-magazine.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/astrolabe-logo.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/astrolabe-logo-tampon.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/podcast-script-microphone-1024x683.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/astrolabe-logo-incrustation-cup.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/tibabiolabs.html</loc>
+    <lastmod>2022-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -283,20 +307,50 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-prod-hat-2.jpg</loc>
+    <loc>http://portfolio.wbenz.com/assets/macbeth-affiche-2.jpg</loc>
+    <lastmod>2022-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/assets/mc-habillage-02.jpg</loc>
+    <lastmod>2022-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/assets/mc-habillage-04.jpg</loc>
+    <lastmod>2022-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/assets/mc-habillage-03.jpg</loc>
+    <lastmod>2022-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/assets/astrolabe-logo-incrustation-cup.jpg</loc>
     <lastmod>2022-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-prod-carte-visite-2.jpg</loc>
+    <loc>http://portfolio.wbenz.com/assets/mc-habillage-01.jpg</loc>
+    <lastmod>2022-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolio.wbenz.com/assets/podcast-script-microphone-1024x683.jpg</loc>
     <lastmod>2022-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolio.wbenz.com/assets/freesh-prod.-papiterie.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
+    <loc>http://portfolio.wbenz.com/assets/macbeth-billet.jpg</loc>
+    <lastmod>2022-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -309,30 +363,6 @@
   <url>
     <loc>http://portfolio.wbenz.com/assets/macbeth-invitation.jpg</loc>
     <lastmod>2022-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/macbeth-billet.jpg</loc>
-    <lastmod>2022-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/mimo_dvd.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/macbeth-affiche-2.jpg</loc>
-    <lastmod>2022-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolio.wbenz.com/assets/mimo_catalogue.jpg</loc>
-    <lastmod>2022-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

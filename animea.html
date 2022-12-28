@@ -10,82 +10,133 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "animea.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "animea.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=150607452"/>
   <title>Animea</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-gabarit.css?crc=4041578503"/>
-  <link rel="stylesheet" type="text/css" href="css/animea.css?crc=4280129682" id="pagesheet"/>
-    <!--HTML Widget code-->
-  
-<style>
-.u6108 a { position: relative; float: left; width: 298px; height: 190px; overflow: visible; display: block; background-color: #000000; text-decoration: none; }
-.u6108 a div { position: relative; z-index: 1; width: 298px; height: 190px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u6108 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u6108 a:hover div:before { opacity: 0.7; }
-.u6108 a:hover div { width: 298px; height: 190px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u6108 a:active div { width: 298px; height: 190px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u6108 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u6108 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u6108 a:hover span h3 { }
-.u6108 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u6108 a:hover span p { opacity: 1; max-height: 200px; }
+  <link rel="stylesheet" type="text/css" href="css/master_a-gabarit.css?crc=521862009"/>
+  <link rel="stylesheet" type="text/css" href="css/animea.css?crc=4249337966" id="pagesheet"/>
+    <!--custom head HTML-->
+  <style>
+.thumb, .thumb-ico {
+transition:all 0.4s ease 0s;
+}
 </style>
 
-<style>
-.u6110 a { position: relative; float: left; width: 298px; height: 190px; overflow: visible; display: block; background-color: #000000; text-decoration: none; }
-.u6110 a div { position: relative; z-index: 1; width: 298px; height: 190px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u6110 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u6110 a:hover div:before { opacity: 0.7; }
-.u6110 a:hover div { width: 298px; height: 190px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u6110 a:active div { width: 298px; height: 190px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u6110 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u6110 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u6110 a:hover span h3 { }
-.u6110 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u6110 a:hover span p { opacity: 1; max-height: 200px; }
+<style type="text/css">
+html,body{
+overflow-y:hidden;
+overflow-x:hidden;
+}
 </style>
-
 <style>
-.u6106 a { position: relative; float: left; width: 298px; height: 190px; overflow: visible; display: block; background-color: #000000; text-decoration: none; }
-.u6106 a div { position: relative; z-index: 1; width: 298px; height: 190px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u6106 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u6106 a:hover div:before { opacity: 0.7; }
-.u6106 a:hover div { width: 298px; height: 190px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u6106 a:active div { width: 298px; height: 190px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u6106 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u6106 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u6106 a:hover span h3 { }
-.u6106 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u6106 a:hover span p { opacity: 1; max-height: 200px; }
+.thumb, .thumb-ico {
+transition:all 0.4s ease 0s;
+}
 </style>
-
-<style>
-.u6112 a { position: relative; float: left; width: 298px; height: 193px; overflow: visible; display: block; background-color: #000000; text-decoration: none; }
-.u6112 a div { position: relative; z-index: 1; width: 298px; height: 193px; background-repeat: no-repeat; background-position: center center; background-size: cover; -webkit-background-size: cover; overflow: hidden;  -webkit-transition: width .2s, height .2s, -webkit-transform .2s; -moz-transition: width .2s, height .2s, -moz-transform .2s; transition: width .2s, height .2s, transform .2s; }
-.u6112 a div:before { content: ""; display: block; width: 600px; height: 400px; position: absolute; z-index: 2; top: 0; left: 0; opacity: 1; background: -moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.9)), color-stop(20%, rgba(0,0,0,0.85)), color-stop(60%, rgba(0,0,0,0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* IE10+ */ background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0) 60%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#00000000', GradientType=1 ); /* IE6-9 */
--webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u6112 a:hover div:before { opacity: 0.7; }
-.u6112 a:hover div { width: 298px; height: 193px; -webkit-transform: translate(-8px, -8px); -moz-transform: translate(-8px, -8px); -ms-transform: translate(-8px, -8px); -o-transform: translate(-8px, -8px); transform: translate(-8px, -8px); }
-.u6112 a:active div { width: 298px; height: 193px; -webkit-transform: translate(-4px, -4px); -moz-transform: translate(-4px, -4px); -ms-transform: translate(-4px, -4px); -o-transform: translate(-4px, -4px); transform: translate(-4px, -4px); }
-.u6112 a span { position: absolute; display: block; overflow: hidden; z-index: 20; padding: 15px 20px; bottom: 0px; left: 0; }
-.u6112 a span h3 { color: #FFFFFF; text-transform: uppercase; margin: 0; font-size: 18px; line-height:24px;}
-.u6112 a:hover span h3 { }
-.u6112 a span p { font-size: 14px; line-height:18px; color: rgba(255,255,255,0.7); margin: 0; opacity: 0; max-height: 0; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.u6112 a:hover span p { opacity: 1; max-height: 200px; }
-</style>
-
  </head>
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu1006"><!-- group -->
+   <div class="clearfix grpelem" id="ppamphletu8733"><!-- group -->
+    <div class="PamphletWidget clearfix" id="pamphletu8733"><!-- none box -->
+     <div class="ThumbGroup clearfix grpelem" id="u8758"><!-- none box -->
+      <div class="popup_anchor" id="u8759popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8759"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8760"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8761-6"><!-- content -->
+          <p>LOGOTYPE</p>
+          <p>ANIMEA</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8768popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8768"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8770"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8769-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>ANIMEA</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8762popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8762"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8763"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8764-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>ANIMEA</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8765popup">
+       <div class="Thumb popup_element transition museBGSize shadow clearfix" id="u8765"><!-- group -->
+        <div class="transition gradient clearfix grpelem" id="u8767"><!-- group -->
+         <div class="thumb transition clearfix grpelem" id="u8766-6"><!-- content -->
+          <p>CATALOGUE</p>
+          <p>ANIMEA</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u8734popup">
+      <div class="ContainerGroup clearfix" id="u8734"><!-- stack box -->
+       <div class="Container clearfix grpelem" id="u8748"><!-- group -->
+        <div class="clip_frame clearfix grpelem" id="u8750"><!-- image -->
+         <img class="position_content" id="u8750_img" src="images/animea%20logo.jpg?crc=205919308" alt="" width="804" height="495"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8749-4"><!-- content -->
+         <div id="u8749-3">
+          <p>Conception d'un logotype pour l'événement Animea.</p>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8739"><!-- group -->
+        <div class="clip_frame grpelem" id="u8742"><!-- image -->
+         <img class="block" id="u8742_img" src="images/animea%20magazine.jpg?crc=254491800" alt="" width="799" height="492"/>
+        </div>
+        <div class="clearfix grpelem" id="pu8741-4"><!-- group -->
+         <div class="rgba-background clearfix grpelem" id="u8741-4"><!-- content -->
+          <div id="u8741-3">
+           <p>Habillage d'un logotype.</p>
+          </div>
+         </div>
+         <div class="rgba-background clearfix grpelem" id="u8740-4"><!-- content -->
+          <div id="u8740-3">
+           <p>Conception d'un catalogue pour l'événement Animea.</p>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8735"><!-- group -->
+        <div class="clip_frame grpelem" id="u8737"><!-- image -->
+         <img class="block" id="u8737_img" src="images/animea%20magazine%20inside.jpg?crc=3785226986" alt="" width="799" height="492"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8736-4"><!-- content -->
+         <div id="u8736-3">
+          <p>Conception d'un catalogue pour l'événement Animea.</p>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8744"><!-- group -->
+        <div class="clip_frame grpelem" id="u8745"><!-- image -->
+         <img class="block" id="u8745_img" src="images/animea%20magazine%20couv.jpg?crc=398626856" alt="" width="800" height="493"/>
+        </div>
+        <div class="rgba-background clearfix grpelem" id="u8747-4"><!-- content -->
+         <div id="u8747-3">
+          <p>Conception d'un catalogue pour l'événement Animea.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
     <div class="browser_width" id="u1006-bw">
      <div id="u1006"><!-- simple frame --></div>
     </div>
@@ -98,98 +149,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <a class="nonblock nontext" id="u656" href="index.html"><!-- simple frame --></a>
     </div>
    </div>
-   <div class="clearfix grpelem" id="ppu916"><!-- column -->
-    <a class="nonblock nontext transition pinned-colelem" id="u916" href="index.html"><!-- state-based BG images --></a>
-    <div class="PamphletWidget clearfix widget_invisible colelem" id="pamphletu6103" data-islightbox="true"><!-- none box -->
-     <div class="ThumbGroup clearfix grpelem" id="u6104"><!-- none box -->
-      <div class="popup_anchor" id="u6107popup">
-       <div class="Thumb popup_element clearfix" id="u6107"><!-- group -->
-        <div class="size_fixed grpelem" id="u6108"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u6108">
-<a href="" title=""><div style="background-image: url(assets/animea-logo.jpg);"></div><span><h3>Logotype Astrolabe</h3><p>Conception d'un logotype pour la chaine de télévision Astrolabe.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u6109popup">
-       <div class="Thumb popup_element clearfix" id="u6109"><!-- group -->
-        <div class="size_fixed grpelem" id="u6110"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u6110">
-<a href="" title=""><div style="background-image: url(assets/animea-magazine-couv.jpg);"></div><span><h3>Tampon Astrolabe</h3><p>Déclinaison du logotype Astrolabe pour un tampon.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u6105popup">
-       <div class="Thumb popup_element clearfix" id="u6105"><!-- group -->
-        <div class="size_fixed grpelem" id="u6106"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u6106">
-<a href="" title=""><div style="background-image: url(assets/animea-magazine-inside.jpg);"></div><span><h3>Microphone Astrolabe</h3><p>Déclinaison du logotype Astrolabe pour un microphone.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u6111popup">
-       <div class="Thumb popup_element clearfix" id="u6111"><!-- group -->
-        <div class="size_fixed grpelem" id="u6112"><!-- custom html -->
-         
-<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
-<div class="u6112">
-<a href="" title=""><div style="background-image: url(assets/animea-magazine.jpg);"></div><span><h3>Tasse Astrolabe</h3><p>Déclinaison du logotype Astrolabe pour une tasse.</p></span></a>
-</div>
- 
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="popup_anchor" id="u6113popup" data-lightbox="true">
-      <div class="ContainerGroup rgba-background clearfix" id="u6113"><!-- stack box -->
-       <div class="Container clearfix grpelem" id="u6114"><!-- group -->
-        <div class="clip_frame grpelem" id="u6115"><!-- image -->
-         <img class="block" id="u6115_img" src="images/animea%20logo.jpg?crc=482806129" alt="" width="755" height="465"/>
-        </div>
-       </div>
-       <div class="Container invi clearfix grpelem" id="u6117"><!-- group -->
-        <div class="clip_frame grpelem" id="u6118"><!-- image -->
-         <img class="block" id="u6118_img" src="images/animea%20magazine%20couv.jpg?crc=67759041" alt="" width="755" height="465"/>
-        </div>
-       </div>
-       <div class="Container invi clearfix grpelem" id="u6123"><!-- group -->
-        <div class="clip_frame grpelem" id="u6124"><!-- image -->
-         <img class="block" id="u6124_img" src="images/animea%20magazine%20inside.jpg?crc=3807938267" alt="" width="755" height="465"/>
-        </div>
-       </div>
-       <div class="Container invi clearfix grpelem" id="u6120"><!-- group -->
-        <div class="clip_frame grpelem" id="u6121"><!-- image -->
-         <img class="block" id="u6121_img" src="images/animea%20magazine.jpg?crc=378815248" alt="" width="755" height="465"/>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-   <div class="verticalspacer" data-offset-top="526" data-content-above-spacer="526" data-content-below-spacer="121"></div>
+   <a class="nonblock nontext transition" id="u916" href="index.html"><!-- state-based BG images --></a>
+   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="605" data-content-below-spacer="718"></div>
   </div>
   <div class="preload_images">
    <img class="preload" src="images/tunetek%20logo-u916-r.png?crc=3792486281" alt=""/>
    <img class="preload" src="images/tunetek%20logo-u916-a.png?crc=3792486281" alt=""/>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
-</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide whether to suppress missing file error or not based on preference setting
@@ -201,12 +167,12 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Certains fichiers sur le serveur sont peut-être manquants ou incorrects. Videz le cache du navigateur et réessayez. Si le problème persiste, contactez le créateur du site.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('#pamphletu6103', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:1000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:1000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu6103 */
+Muse.Utils.initWidget('#pamphletu8733', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:true,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu8733 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -215,9 +181,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4177726516" type="text/javascript" async data-main="scripts/museconfig.js?crc=128606099" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-  
-  <!--HTML Widget code-->
-  
-				
    </body>
 </html>
